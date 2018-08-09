@@ -1,0 +1,19 @@
+c:\users\marconcilio.souza\documents\visual studio 2010\Projects\ImportadorDNE\ImportadorDNE\bin\ImportadorDNE.dll
+c:\users\marconcilio.souza\documents\visual studio 2010\Projects\ImportadorDNE\ImportadorDNE\bin\ImportadorDNE.pdb
+c:\users\marconcilio.souza\documents\visual studio 2010\Projects\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.dll
+c:\users\marconcilio.souza\documents\visual studio 2010\Projects\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.pdb
+C:\Work\ImportadorDNE\ImportadorDNE\bin\ImportadorDNE.dll
+C:\Work\ImportadorDNE\ImportadorDNE\bin\ImportadorDNE.pdb
+C:\Work\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.dll
+C:\Work\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.pdb
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\bin\ImportadorDNE.dll
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\bin\ImportadorDNE.pdb
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.csprojAssemblyReference.cache
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.csproj.CoreCompileInputs.cache
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.dll
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.pdb
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\bin\EntityFramework.dll
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\bin\EntityFramework.SqlServer.dll
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\bin\EntityFramework.xml
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\bin\EntityFramework.SqlServer.xml
+C:\Fontes\ImportadoDeCPs\ImportadorDNE\ImportadorDNE\obj\Debug\ImportadorDNE.csproj.CopyComplete

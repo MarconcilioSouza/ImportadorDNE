@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dneModelStoreContainer" CdmEntityContainer="dneEntities">
+    <EntitySetMapping Name="Ect_Pais">
+      <EntityTypeMapping TypeName="dneModel.Ect_Pais">
+        <MappingFragment StoreEntitySet="Ect_Pais">
+          <ScalarProperty Name="PAI_SG" ColumnName="PAI_SG" />
+          <ScalarProperty Name="PAI_SG_ALTERNATIVA" ColumnName="PAI_SG_ALTERNATIVA" />
+          <ScalarProperty Name="PAI_NO_PORTUGUES" ColumnName="PAI_NO_PORTUGUES" />
+          <ScalarProperty Name="PAI_NO_INGLES" ColumnName="PAI_NO_INGLES" />
+          <ScalarProperty Name="PAI_NO_FRANCES" ColumnName="PAI_NO_FRANCES" />
+          <ScalarProperty Name="PAI_ABREVIATURA" ColumnName="PAI_ABREVIATURA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Bairro">
+      <EntityTypeMapping TypeName="dneModel.Log_Bairro">
+        <MappingFragment StoreEntitySet="Log_Bairro">
+          <ScalarProperty Name="BAI_NU" ColumnName="BAI_NU" />
+          <ScalarProperty Name="UFE_SG" ColumnName="UFE_SG" />
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="BAI_NO" ColumnName="BAI_NO" />
+          <ScalarProperty Name="BAI_NO_ABREV" ColumnName="BAI_NO_ABREV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_CPC">
+      <EntityTypeMapping TypeName="dneModel.Log_CPC">
+        <MappingFragment StoreEntitySet="Log_CPC">
+          <ScalarProperty Name="CPC_NU" ColumnName="CPC_NU" />
+          <ScalarProperty Name="UFE_SG" ColumnName="UFE_SG" />
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="CPC_NO" ColumnName="CPC_NO" />
+          <ScalarProperty Name="CPC_ENDERECO" ColumnName="CPC_ENDERECO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Faixa_Bairro">
+      <EntityTypeMapping TypeName="dneModel.Log_Faixa_Bairro">
+        <MappingFragment StoreEntitySet="Log_Faixa_Bairro">
+          <ScalarProperty Name="BAI_NU" ColumnName="BAI_NU" />
+          <ScalarProperty Name="FCB_CEP_INI" ColumnName="FCB_CEP_INI" />
+          <ScalarProperty Name="FCB_CEP_FIM" ColumnName="FCB_CEP_FIM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Faixa_CPC">
+      <EntityTypeMapping TypeName="dneModel.Log_Faixa_CPC">
+        <MappingFragment StoreEntitySet="Log_Faixa_CPC">
+          <ScalarProperty Name="CPC_NU" ColumnName="CPC_NU" />
+          <ScalarProperty Name="CPC_INICIAL" ColumnName="CPC_INICIAL" />
+          <ScalarProperty Name="CPC_FINAL" ColumnName="CPC_FINAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Faixa_Localidade">
+      <EntityTypeMapping TypeName="dneModel.Log_Faixa_Localidade">
+        <MappingFragment StoreEntitySet="Log_Faixa_Localidade">
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="LOC_CEP_INI" ColumnName="LOC_CEP_INI" />
+          <ScalarProperty Name="LOC_CEP_FIM" ColumnName="LOC_CEP_FIM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Faixa_UF">
+      <EntityTypeMapping TypeName="dneModel.Log_Faixa_UF">
+        <MappingFragment StoreEntitySet="Log_Faixa_UF">
+          <ScalarProperty Name="UFE_SG" ColumnName="UFE_SG" />
+          <ScalarProperty Name="UFE_CEP_INI" ColumnName="UFE_CEP_INI" />
+          <ScalarProperty Name="UFE_CEP_FIM" ColumnName="UFE_CEP_FIM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Faixa_Uop">
+      <EntityTypeMapping TypeName="dneModel.Log_Faixa_Uop">
+        <MappingFragment StoreEntitySet="Log_Faixa_Uop">
+          <ScalarProperty Name="UOP_NU" ColumnName="UOP_NU" />
+          <ScalarProperty Name="FNC_INICIAL" ColumnName="FNC_INICIAL" />
+          <ScalarProperty Name="FNC_FINAL" ColumnName="FNC_FINAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Grande_Usuario">
+      <EntityTypeMapping TypeName="dneModel.Log_Grande_Usuario">
+        <MappingFragment StoreEntitySet="Log_Grande_Usuario">
+          <ScalarProperty Name="GRU_NU" ColumnName="GRU_NU" />
+          <ScalarProperty Name="UFE_SG" ColumnName="UFE_SG" />
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="BAI_NU" ColumnName="BAI_NU" />
+          <ScalarProperty Name="LOG_NU" ColumnName="LOG_NU" />
+          <ScalarProperty Name="GRU_NO" ColumnName="GRU_NO" />
+          <ScalarProperty Name="GRU_ENDERECO" ColumnName="GRU_ENDERECO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="GRU_NO_ABREV" ColumnName="GRU_NO_ABREV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Localidade">
+      <EntityTypeMapping TypeName="dneModel.Log_Localidade">
+        <MappingFragment StoreEntitySet="Log_Localidade">
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="UFE_SG" ColumnName="UFE_SG" />
+          <ScalarProperty Name="LOC_NO" ColumnName="LOC_NO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="LOC_IN_SIT" ColumnName="LOC_IN_SIT" />
+          <ScalarProperty Name="LOC_IN_TIPO_LOC" ColumnName="LOC_IN_TIPO_LOC" />
+          <ScalarProperty Name="LOC_NU_SUB" ColumnName="LOC_NU_SUB" />
+          <ScalarProperty Name="LOC_NO_ABREV" ColumnName="LOC_NO_ABREV" />
+          <ScalarProperty Name="MUN_NU" ColumnName="MUN_NU" />
+          <ScalarProperty Name="CAD_MUNI_RADAR" ColumnName="CAD_MUNI_RADAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Logradouro">
+      <EntityTypeMapping TypeName="dneModel.Log_Logradouro">
+        <MappingFragment StoreEntitySet="Log_Logradouro">
+          <ScalarProperty Name="LOG_NU" ColumnName="LOG_NU" />
+          <ScalarProperty Name="UFE_SG" ColumnName="UFE_SG" />
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="BAI_NU_INI" ColumnName="BAI_NU_INI" />
+          <ScalarProperty Name="BAI_NU_FIM" ColumnName="BAI_NU_FIM" />
+          <ScalarProperty Name="LOG_NO" ColumnName="LOG_NO" />
+          <ScalarProperty Name="LOG_COMPLEMENTO" ColumnName="LOG_COMPLEMENTO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="TLO_TX" ColumnName="TLO_TX" />
+          <ScalarProperty Name="LOG_STA_TLO" ColumnName="LOG_STA_TLO" />
+          <ScalarProperty Name="LOG_NO_ABREV" ColumnName="LOG_NO_ABREV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Num_Sec">
+      <EntityTypeMapping TypeName="dneModel.Log_Num_Sec">
+        <MappingFragment StoreEntitySet="Log_Num_Sec">
+          <ScalarProperty Name="LOG_NU" ColumnName="LOG_NU" />
+          <ScalarProperty Name="SEC_NU_INI" ColumnName="SEC_NU_INI" />
+          <ScalarProperty Name="SEC_NU_FIM" ColumnName="SEC_NU_FIM" />
+          <ScalarProperty Name="SEC_IN_LADO" ColumnName="SEC_IN_LADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Unid_Oper">
+      <EntityTypeMapping TypeName="dneModel.Log_Unid_Oper">
+        <MappingFragment StoreEntitySet="Log_Unid_Oper">
+          <ScalarProperty Name="UOP_NU" ColumnName="UOP_NU" />
+          <ScalarProperty Name="UFE_SG" ColumnName="UFE_SG" />
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="BAI_NU" ColumnName="BAI_NU" />
+          <ScalarProperty Name="LOG_NU" ColumnName="LOG_NU" />
+          <ScalarProperty Name="UOP_NO" ColumnName="UOP_NO" />
+          <ScalarProperty Name="UOP_ENDERECO" ColumnName="UOP_ENDERECO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="UOP_IN_CP" ColumnName="UOP_IN_CP" />
+          <ScalarProperty Name="UOP_NO_ABREV" ColumnName="UOP_NO_ABREV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Var_Bai">
+      <EntityTypeMapping TypeName="dneModel.Log_Var_Bai">
+        <MappingFragment StoreEntitySet="Log_Var_Bai">
+          <ScalarProperty Name="BAI_NU" ColumnName="BAI_NU" />
+          <ScalarProperty Name="VDB_NU" ColumnName="VDB_NU" />
+          <ScalarProperty Name="VDB_TX" ColumnName="VDB_TX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Var_Loc">
+      <EntityTypeMapping TypeName="dneModel.Log_Var_Loc">
+        <MappingFragment StoreEntitySet="Log_Var_Loc">
+          <ScalarProperty Name="LOC_NU" ColumnName="LOC_NU" />
+          <ScalarProperty Name="VAL_NU" ColumnName="VAL_NU" />
+          <ScalarProperty Name="VAL_TX" ColumnName="VAL_TX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_Var_Log">
+      <EntityTypeMapping TypeName="dneModel.Log_Var_Log">
+        <MappingFragment StoreEntitySet="Log_Var_Log">
+          <ScalarProperty Name="LOG_NU" ColumnName="LOG_NU" />
+          <ScalarProperty Name="VLO_NU" ColumnName="VLO_NU" />
+          <ScalarProperty Name="TLO_TX" ColumnName="TLO_TX" />
+          <ScalarProperty Name="VLO_TX" ColumnName="VLO_TX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
